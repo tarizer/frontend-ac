@@ -14,17 +14,12 @@ let message = "";
 if (checkBalance) {
   if (isActive && balance > 0) {
     message = "Your balance is $" + balance.toFixed(2) + ".";
-  } else {
-    if (!isActive) {
+  } else if (!isActive) {
       message = "Your account is no longer active.";
-    } else {
-      if (balance === 0) {
+  } else if (balance === 0) {
         message = "Your account is empty.";
-      }
-      else {
+  } else {
         message = "Your balance is negative. Please contact bank.";
-      }
-    }
   }
 } else {
   message = "Thank you. Have a nice day!";
