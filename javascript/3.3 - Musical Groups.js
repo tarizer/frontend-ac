@@ -13,7 +13,7 @@ Prints "this is a large group" if musicians is greater than 4
  */
 
 // change the value of `musicians` to test your conditional statements
-let musicians = "toto";
+let musicians = 3;
 let message = "";
 
 // your code goes here
