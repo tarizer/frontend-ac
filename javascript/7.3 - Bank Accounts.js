@@ -17,7 +17,7 @@ var savingsAccount = {
       }
   },
   // your code goes here
-  printAccountSummary: (() => "Welcome!\nYour balance is currently " + savingsAccount.balance + " and your interest rate is " + savingsAccount.interestRatePercent + "%.")
+  printAccountSummary: (() => "Welcome!\nYour balance is currently $" + savingsAccount.balance + " and your interest rate is " + savingsAccount.interestRatePercent + "%.")
 };
 
 console.log(savingsAccount.printAccountSummary());
