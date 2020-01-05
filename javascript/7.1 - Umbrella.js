@@ -3,20 +3,20 @@
  */
 
 const umbrella = {
-  color: 'pink',
+  color: "pink",
   isOpen: true,
   // eslint-disable-next-line object-shorthand
   open: function() {
     if (umbrella.isOpen === true) {
-      return 'The umbrella is already opened!';
+      return "The umbrella is already opened!";
     }
     umbrella.isOpen = true;
-    return 'Julia opens the umbrella!';
+    return "Julia opens the umbrella!";
   },
   close: () =>
     umbrella.isOpen === true
-      ? ((umbrella.isOpen = false), 'Julia closes the umbrella!')
-      : 'The umbrella is already closed!',
+      ? ((umbrella.isOpen = false), "Julia closes the umbrella!")
+      : "The umbrella is already closed!"
 };
 
 console.log(umbrella.open());

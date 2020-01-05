@@ -3,5 +3,14 @@
 {
   "extends": [
     "wesbos"
-  ]
+  ],
+  "rules": {
+    "quotes": [2, "double"],
+    "prettier/prettier": [
+      "error",
+      {
+        // "singleQuote": false
+      }
+    ]
+  }
 }
