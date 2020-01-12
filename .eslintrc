@@ -1,15 +1,12 @@
 /* from https://github.com/wesbos/eslint-config-wesbos */
-
 {
-  "extends": [
-    "wesbos"
-  ],
+  "extends": ["wesbos"],
   "rules": {
-    "quotes": [2, "double"],
+    "quotes": [0, "double"],
     "prettier/prettier": [
       "error",
       {
-        // "singleQuote": false
+        "singleQuote": false
       }
     ]
   }
